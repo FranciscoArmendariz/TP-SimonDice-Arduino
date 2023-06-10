@@ -222,11 +222,12 @@ void mostrarInformacionDelJuego(){
 void configuracionInicial()
 {
   bool configuracionCompleta=false;
-  bool seleccionado = false;
+  bool seleccionado;
 
   while (!configuracionCompleta){
-
+  
   // CONFIGURO JUGADORES
+  seleccionado = false;
   lcd.clear();
   lcd.print("Nro Jugadores");
   lcd.setCursor(0,1);
